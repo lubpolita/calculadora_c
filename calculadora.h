@@ -24,7 +24,7 @@ typedef struct
     int tamanho;
 } TPilha;
 
-//operacoes auxiliares
+//operacoes auxiliares e funcoes para calcular a expressao
 void FPVazia(TPilha *pilha);
 int Vazia(TPilha pilha);
 void Push(TPilha *pilha, TItem item);

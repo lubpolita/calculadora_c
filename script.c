@@ -1,3 +1,6 @@
+
+//este script foi criado com o intuito de demonstrar os testes feitos na calculadora
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
@@ -23,7 +26,7 @@ int main()
     FPVazia(&pilha);
     //char expressao[50] = "(90/((20*(15-13))+5))";
     char *final;
-    char expressao[100];
+    char expressao[50];
     int opcao = -1;
 
     //laco para repetir a calculadora 
